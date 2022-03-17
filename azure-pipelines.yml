@@ -23,7 +23,7 @@ steps:
   inputs:
     connectionType: 'OpenShift Connection Service'
     openshiftService: 'deploy-to-openshift-demo'
-    cmd: 'oc start-build openshift-roadshow-dot-net-dev-git -n demo-test --follow'
+    cmd: 'oc start-build az-devops-dot-net-dev-ocp-git -n demo-test --follow'
 - task: oc-cmd@2
   inputs:
     connectionType: 'OpenShift Connection Service'
